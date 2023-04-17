@@ -1,0 +1,119 @@
+.container {
+    text-align: center;
+}
+body {
+    margin-inline: auto;
+    text-align: center;}
+
+
+.weather-container>div {
+width:100%;
+height:90px;
+text-align: center;
+vertical-align: center;
+line-height: 75px;
+}
+
+
+.container .button.view {
+    display: block;
+    width: 9%;
+    text-align: center;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+.button.view {
+    display: block;
+    width: 9%;
+    text-align: center;
+    margin: 10px auto;
+    border: 1px solid black;
+    font-size: 1.1rem;
+    padding: 3px;
+    border-radius: 6px;
+}
+/* .weather-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;min
+    align-items: center;
+    font-size: 1.1rem;
+} */
+
+/* .value {
+    font-weight: bold;
+    color: rgb(1, 1, 35);
+    font-size: 1.2rem;
+/* } */
+/* .value .num { 
+    font-weight: normal;   
+} */
+.weather-container {
+    width: 50%;
+    /* display: grid; */
+    margin-inline: auto;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    font-size: 2rem;
+    font-weight: bold;
+   
+}
+
+.container {
+    display: none} 
+
+/* .cities {
+    font-size: 1.1rem;
+    padding: 3px;
+    border-radius: 2px;
+ }
+
+ .image {margin-top: -13px;}
+
+ @media only screen and (max-width:1200px) {
+    .weather-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        align-items: center;
+        border: 1px solid black;
+        background-color: rgb(163, 234, 245);
+        font-size: 1.1rem;
+       
+    }
+    .pressure {
+        grid-column: 2/3;
+    }
+    .weather-container>div {width:100%; height:75px;
+        text-align: center;
+        vertical-align: center;
+        line-height: 75px;}
+ }
+
+ @media only screen and (max-width:600px) {
+    .weather-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+        border: 1px solid black;
+        background-color: rgb(163, 234, 245);
+        font-size: 1.1rem;
+       
+    }
+    .pressure {
+        grid-column: 1/2;
+    }
+    .weather-container>div {
+        width:100%;
+         height:50px;
+        text-align: center;
+        vertical-align: center;
+        line-height: 50px;}
+
+    .image {margin-top: -25px;}
+ }
+ */  
